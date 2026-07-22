@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.WebDriver.Comments.BrowserTitleExercise"/>
+      <class name="com.ScreenShots_TaskCaseStudies.ScreenshotExampleTask81"/>
+      <class name="com.WebDriver.Comments.BrowserComments"/>
+      <class name="com.Selenium_WebDriver_Actions.MouseOverMoments"/>
+      <class name="com.WebDriver_Navigation_Commands.Chrome_Navigation_commands"/>
+      <class name="listbox_or_dropdown_options.Selenium_Webdriver_dropdown_box"/>
+      <class name="com.Selenium_WebDriver_Actions.TestScrollUpandDown"/>
+      <class name="com.WebDriver.Comments.BrowserURLexercise"/>
+      <class name="com.WebDriver_Navigation_Commands.BrowserNavigationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

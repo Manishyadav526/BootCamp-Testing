@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-20T14:27:41 IST" name="Suite" finished-at="2026-07-20T14:30:54 IST" duration-ms="192436">
+    <groups>
+    </groups>
+    <test started-at="2026-07-20T14:27:41 IST" name="Test" finished-at="2026-07-20T14:30:54 IST" duration-ms="192436">
+      <class name="com.Selenium_WebDriver_Actions.MouseOverMoments">
+        <test-method signature="mouseover()[pri:0, instance:com.Selenium_WebDriver_Actions.MouseOverMoments@2f953efd]" started-at="2026-07-20T14:28:55 IST" name="mouseover" finished-at="2026-07-20T14:29:17 IST" duration-ms="22297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseover -->
+      </class> <!-- com.Selenium_WebDriver_Actions.MouseOverMoments -->
+      <class name="listbox_or_dropdown_options.Selenium_Webdriver_dropdown_box">
+        <test-method is-config="true" signature="setup()[pri:0, instance:listbox_or_dropdown_options.Selenium_Webdriver_dropdown_box@10289886]" started-at="2026-07-20T14:29:39 IST" name="setup" finished-at="2026-07-20T14:29:45 IST" duration-ms="6492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DropDownList()[pri:0, instance:listbox_or_dropdown_options.Selenium_Webdriver_dropdown_box@10289886]" started-at="2026-07-20T14:29:45 IST" name="DropDownList" finished-at="2026-07-20T14:30:06 IST" duration-ms="20762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDownList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:listbox_or_dropdown_options.Selenium_Webdriver_dropdown_box@10289886]" started-at="2026-07-20T14:30:06 IST" name="tearDown" finished-at="2026-07-20T14:30:06 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- listbox_or_dropdown_options.Selenium_Webdriver_dropdown_box -->
+      <class name="com.WebDriver.Comments.BrowserComments">
+        <test-method signature="ChromeBrowserTest()[pri:0, instance:com.WebDriver.Comments.BrowserComments@51891008]" started-at="2026-07-20T14:28:39 IST" name="ChromeBrowserTest" finished-at="2026-07-20T14:28:42 IST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeBrowserTest -->
+        <test-method signature="FirefoxBrowserTest()[pri:1, instance:com.WebDriver.Comments.BrowserComments@51891008]" started-at="2026-07-20T14:28:42 IST" name="FirefoxBrowserTest" finished-at="2026-07-20T14:28:51 IST" duration-ms="8517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirefoxBrowserTest -->
+        <test-method signature="EdgeBrowserTest()[pri:2, instance:com.WebDriver.Comments.BrowserComments@51891008]" started-at="2026-07-20T14:28:51 IST" name="EdgeBrowserTest" finished-at="2026-07-20T14:28:55 IST" duration-ms="3798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeBrowserTest -->
+      </class> <!-- com.WebDriver.Comments.BrowserComments -->
+      <class name="com.WebDriver.Comments.BrowserTitleExercise">
+        <test-method signature="ChromeBrowserTest()[pri:0, instance:com.WebDriver.Comments.BrowserTitleExercise@3aa078fd]" started-at="2026-07-20T14:27:41 IST" name="ChromeBrowserTest" finished-at="2026-07-20T14:27:45 IST" duration-ms="3867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeBrowserTest -->
+        <test-method signature="FirefoxBrowserTest()[pri:1, instance:com.WebDriver.Comments.BrowserTitleExercise@3aa078fd]" started-at="2026-07-20T14:27:45 IST" name="FirefoxBrowserTest" finished-at="2026-07-20T14:27:53 IST" duration-ms="8157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirefoxBrowserTest -->
+        <test-method signature="EdgeBrowserTest()[pri:2, instance:com.WebDriver.Comments.BrowserTitleExercise@3aa078fd]" started-at="2026-07-20T14:27:53 IST" name="EdgeBrowserTest" finished-at="2026-07-20T14:28:00 IST" duration-ms="6446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeBrowserTest -->
+      </class> <!-- com.WebDriver.Comments.BrowserTitleExercise -->
+      <class name="com.Selenium_WebDriver_Actions.TestScrollUpandDown">
+        <test-method signature="Test()[pri:0, instance:com.Selenium_WebDriver_Actions.TestScrollUpandDown@5c86dbc5]" started-at="2026-07-20T14:30:06 IST" name="Test" finished-at="2026-07-20T14:30:34 IST" duration-ms="27450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- com.Selenium_WebDriver_Actions.TestScrollUpandDown -->
+      <class name="com.WebDriver_Navigation_Commands.BrowserNavigationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.WebDriver_Navigation_Commands.BrowserNavigationTest@4ee203eb]" started-at="2026-07-20T14:30:54 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1784538054048" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Coforge_Automation_testing\Selenium_webdriver_AllureReports\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Coforge_Automation_testing\Selenium_webdriver_AllureReports\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigationTest()[pri:0, instance:com.WebDriver_Navigation_Commands.BrowserNavigationTest@4ee203eb]" started-at="2026-07-20T14:30:54 IST" name="navigationTest" finished-at="2026-07-20T14:30:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Coforge_Automation_testing\Selenium_webdriver_AllureReports\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Coforge_Automation_testing\Selenium_webdriver_AllureReports\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebDriver_Navigation_Commands.BrowserNavigationTest@4ee203eb]" started-at="2026-07-20T14:30:54 IST" name="tearDown" finished-at="2026-07-20T14:30:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.WebDriver_Navigation_Commands.BrowserNavigationTest -->
+      <class name="com.WebDriver_Navigation_Commands.Chrome_Navigation_commands">
+        <test-method signature="NavigateDemo()[pri:0, instance:com.WebDriver_Navigation_Commands.Chrome_Navigation_commands@f68f0dc]" started-at="2026-07-20T14:29:17 IST" name="NavigateDemo" finished-at="2026-07-20T14:29:20 IST" duration-ms="2766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateDemo -->
+        <test-method signature="NavigateBackDemo()[pri:1, instance:com.WebDriver_Navigation_Commands.Chrome_Navigation_commands@f68f0dc]" started-at="2026-07-20T14:29:20 IST" name="NavigateBackDemo" finished-at="2026-07-20T14:29:26 IST" duration-ms="6194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateBackDemo -->
+        <test-method signature="NavigateForwardDemo()[pri:2, instance:com.WebDriver_Navigation_Commands.Chrome_Navigation_commands@f68f0dc]" started-at="2026-07-20T14:29:26 IST" name="NavigateForwardDemo" finished-at="2026-07-20T14:29:34 IST" duration-ms="8233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateForwardDemo -->
+        <test-method signature="NavigateRefreshDemo()[pri:3, instance:com.WebDriver_Navigation_Commands.Chrome_Navigation_commands@f68f0dc]" started-at="2026-07-20T14:29:34 IST" name="NavigateRefreshDemo" finished-at="2026-07-20T14:29:39 IST" duration-ms="4560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateRefreshDemo -->
+      </class> <!-- com.WebDriver_Navigation_Commands.Chrome_Navigation_commands -->
+      <class name="com.ScreenShots_TaskCaseStudies.ScreenshotExampleTask81">
+        <test-method signature="PurchaseProduct()[pri:0, instance:com.ScreenShots_TaskCaseStudies.ScreenshotExampleTask81@2254127a]" started-at="2026-07-20T14:28:00 IST" name="PurchaseProduct" finished-at="2026-07-20T14:28:39 IST" duration-ms="39076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseProduct -->
+      </class> <!-- com.ScreenShots_TaskCaseStudies.ScreenshotExampleTask81 -->
+      <class name="com.WebDriver.Comments.BrowserURLexercise">
+        <test-method signature="ChromeBrowserTest()[pri:0, instance:com.WebDriver.Comments.BrowserURLexercise@461ad730]" started-at="2026-07-20T14:30:34 IST" name="ChromeBrowserTest" finished-at="2026-07-20T14:30:38 IST" duration-ms="4274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeBrowserTest -->
+        <test-method signature="FirefoxBrowserTest()[pri:1, instance:com.WebDriver.Comments.BrowserURLexercise@461ad730]" started-at="2026-07-20T14:30:38 IST" name="FirefoxBrowserTest" finished-at="2026-07-20T14:30:49 IST" duration-ms="10683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirefoxBrowserTest -->
+        <test-method signature="EdgeBrowserTest()[pri:2, instance:com.WebDriver.Comments.BrowserURLexercise@461ad730]" started-at="2026-07-20T14:30:49 IST" name="EdgeBrowserTest" finished-at="2026-07-20T14:30:54 IST" duration-ms="4749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeBrowserTest -->
+      </class> <!-- com.WebDriver.Comments.BrowserURLexercise -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
