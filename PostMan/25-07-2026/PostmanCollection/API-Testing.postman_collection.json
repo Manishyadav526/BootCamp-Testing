@@ -1,0 +1,661 @@
+{
+  "info": {
+    "_postman_id": "c297fc07-891b-4a52-98d6-4757c7764882",
+    "name": "API-Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48452187",
+    "_collection_link": "https://go.postman.co/collection/48452187-c297fc07-891b-4a52-98d6-4757c7764882?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET Request Method",
+      "item": [
+        {
+          "name": "GET Request- Postman",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "postman-echo.com/get",
+              "host": [
+                "postman-echo",
+                "com"
+              ],
+              "path": [
+                "get"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Request- Dummy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/employees",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "employees"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Request- Jsonplaceholder",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Request-Restapiexample",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.restful-api.dev/objects",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restful-api",
+                "dev"
+              ],
+              "path": [
+                "objects"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Request-Restful",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://restful-api.dev/sign-in",
+              "protocol": "https",
+              "host": [
+                "restful-api",
+                "dev"
+              ],
+              "path": [
+                "sign-in"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Request-Restful",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://app.reqres.in",
+              "protocol": "https",
+              "host": [
+                "app",
+                "reqres",
+                "in"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "POST Request Methods",
+      "item": [
+        {
+          "name": "POST Request Method-json placeholder",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"status\": \"success\",\r\n    \"data\": {\r\n        \"name\": \"API testing\",\r\n        \"salary\": \"123000\",\r\n        \"age\": \"48\",\r\n        \"id\": 25\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST Request- JSONplaceholder",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"API Testing\",\r\n    \"body\": \"Learning Postman\",\r\n    \"userId\": 1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST Request Reqbin",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"username\": \"emilys\",\r\n    \"password\": \"emilyspass\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummyjson.com/auth/login",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST Request-jsonplaceholder",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"userId\": 1,\r\n    \"id\": 4,\r\n    \"title\": \"eum et est occaecati\",\r\n    \"body\": \"ullam et saepe reiciendis voluptatem adipisci\\nsit amet autem assumenda provident rerum culpa\\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\\nquis sunt voluptatem rerum illo velit\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST Request -restfulspi",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Apple MacBook Pro 16\",\r\n    \"data\": {\r\n        \"year\": 2025,\r\n        \"price\": 2500,\r\n        \"CPU model\": \"M4\",\r\n        \"Hard disk size\": \"1 TB\"\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://api.restful-api.dev/objects",
+              "protocol": "https",
+              "host": [
+                "api",
+                "restful-api",
+                "dev"
+              ],
+              "path": [
+                "objects"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "PUT Request Method",
+      "item": [
+        {
+          "name": "PUT restapiexample",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"status\": \"success\",\r\n    \"data\": {\r\n        \"name\": \"test\",\r\n        \"salary\": \"123\",\r\n        \"age\": \"23\",\r\n        \"id\": 25\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/public/api/v1/update/21",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "public",
+                "api",
+                "v1",
+                "update",
+                "21"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Request- dummy",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"status\": \"success\",\r\n    \"data\": {\r\n        \"status\": \"success\",\r\n        \"data\": {\r\n            \"name\": \"API test\",\r\n            \"salary\": \"123000\",\r\n            \"age\": \"21\",\r\n            \"id\": 25\r\n        }\r\n    }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/update/21",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "update",
+                "21"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Request-dummy",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"test\",\r\n    \"salary\": \"123\",\r\n    \"age\": \"23\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/update/21",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "update",
+                "21"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Request-jsonplaceholder",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"Updated Title\",\r\n    \"body\": \"Updated Body\",\r\n    \"userId\": 1\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Request-dummyjson",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"Updated Laptop\",\r\n    \"price\": 1400\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummyjson.com/products/1",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "products",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "DELETE Request Method",
+      "item": [
+        {
+          "name": "DELETE Request -restapi",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"status\": \"success\",\r\n    \"message\": \"successfully! deleted Records\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://dummy.restapiexample.com/api/v1/delete/2",
+              "protocol": "https",
+              "host": [
+                "dummy",
+                "restapiexample",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "delete",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE Request -jsonplaceholder",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1",
+              "protocol": "https",
+              "host": [
+                "jsonplaceholder",
+                "typicode",
+                "com"
+              ],
+              "path": [
+                "posts",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE -Dummyjson",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "https://dummyjson.com/products/1",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "products",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE Request-dummyjson",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "https://dummyjson.com/users/1",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "users",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE Request -dummyjson",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "reqres-free-v1",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "https://dummyjson.com/products/1",
+              "protocol": "https",
+              "host": [
+                "dummyjson",
+                "com"
+              ],
+              "path": [
+                "products",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Environment Variables",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "POST Request-fakestoreapi",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"id\": 0,\r\n    \"title\": \"API-Testing\",\r\n    \"price\": 109.95,\r\n    \"description\": \"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday\",\r\n    \"category\": \"men's clothing\",\r\n    \"image\": \"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST Request Call Variables",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"id\": 0,\r\n    \"title\": \"{{title}}\",\r\n    \"price\": {{price}},\r\n    \"description\": \"{{description}}\",\r\n    \"category\": \"{{category}}\",\r\n    \"image\": \"{{image}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://fakestoreapi.com/products",
+              "protocol": "https",
+              "host": [
+                "fakestoreapi",
+                "com"
+              ],
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
