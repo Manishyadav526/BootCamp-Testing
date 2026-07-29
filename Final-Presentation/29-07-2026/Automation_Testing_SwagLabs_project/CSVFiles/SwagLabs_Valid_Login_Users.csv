@@ -1,7 +1,0 @@
-TestCaseID,Username,Password,ExpectedResult
-TC001,standard_user,secret_sauce,Login successful
-TC002,locked_out_user,secret_sauce,User is locked out
-TC003,problem_user,secret_sauce,Login successful
-TC004,performance_glitch_user,secret_sauce,Login successful (slow response expected)
-TC005,error_user,secret_sauce,Login successful
-TC006,visual_user,secret_sauce,Login successful
